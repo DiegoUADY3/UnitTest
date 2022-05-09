@@ -19,7 +19,7 @@ public class CalculadoraTest {
 	public void sumaPositivosTest() {
 		
 		double resultadoEjecucion = miCalculadora.suma(1, 3); 
-		double resultadoEsperado = 4; 
+		double resultadoEsperado = 7; 
 		
 		assertThat(resultadoEjecucion, is(resultadoEsperado)); 
 	}
